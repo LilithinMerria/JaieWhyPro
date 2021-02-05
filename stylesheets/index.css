@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /*background-color: $color;*/
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  padding: 25px 0px 0px 7px;
+  border-bottom: 2px solid #A9A9A9;
+}
+
+nav a {
+  padding: 27px 0px 0px 0px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#section {
+  /*background-color: blue;*/
+  width: 100%;
+  height: 290px;
+  margin: 100px 0px 0px 200px;
+  padding: 12px;
+}
+
+#section h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 50px;
+  text-align: top;
+}
+
+#section p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 27px;
+  width: 70%;
+}
+
+#jaie {
+  width: 400px;
+  height: 350px;
+  float: right;
+  margin: -320px 400px 0px 0px;
+}
+
+i {
+  margin: 3px;
+}
+
+#footer-div {
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  margin-top: 300px;
+  background-color: #A9A9A9;
+}
+
+#made-by {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #A9A9A9;
+}
+/*# sourceMappingURL=index.css.map */
