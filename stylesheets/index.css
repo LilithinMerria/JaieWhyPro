@@ -5,28 +5,51 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #3b5998;
+  background-color: #dfe3ee;
   /*display: grid;
     grid-template-columns: initial;*/
 }
 
+#jaie {
+  width: 350px;
+  height: 400px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 350px;
+          flex: 1 1 350px;
+  margin: 12px;
+}
+
 .content-wrapper {
-  width: 1200px;
+  max-width: 1200px;
+  width: 75%;
   margin: 0 auto;
-  /*padding: 20px;*/
-  background-color: #dfe3ee;
+  padding: 20px;
+  /*background-color: $*/
+}
+
+#img-flex {
+  background-color: #fff;
 }
 
 #left-nav {
-  background-color: #dfe3ee;
+  background-color: #ffffff;
   font-weight: 600;
   margin: auto;
-  padding: 25px;
+  padding-bottom: 25px;
   /*border-bottom: 2px solid $gray;*/
-  position: relative;
 }
 
 #left-nav a {
-  padding: 27px 0px 0px 0px;
+  padding-top: 27px;
   margin: 10px;
   font-size: 18px;
   font-family: helvetica, arial, sans-serif;
@@ -48,29 +71,23 @@ i {
     
 } */
 section {
-  /*background-color: blue;*/
+  /*background-color: $white;*/
+  width: 1000px;
   height: 500px;
-  margin-top: 100px;
-  padding: 12px;
+  margin: 0 auto;
 }
 
 section h3 {
   font-family: helvetica, arial, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   text-align: top;
+  margin: 0;
 }
 
 section p {
   font-family: helvetica, arial, sans-serif;
-  font-size: 27px;
+  font-size: 20px;
   width: 57%;
-}
-
-section img {
-  width: 400px;
-  height: 350px;
-  float: right;
-  margin-top: -250px;
 }
 
 #footer-div {
@@ -93,7 +110,24 @@ section img {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
+  text-align: left;
+  padding-left: 120px;
   /*color: #ffffff;*/
+}
+
+#contact-flex {
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-jaie {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 450px;
+          flex: 1 1 450px;
+  text-align: center;
 }
 
 #contact {
@@ -101,7 +135,6 @@ section img {
   height: 190px;
   margin: 5px;
   background-color: #A9A9A9;
-  position: absolute;
 }
 
 #social-media {
@@ -109,9 +142,6 @@ section img {
   height: 190px;
   margin: 5px;
   background-color: #A9A9A9;
-  float: right;
-  position: relative;
-  right: 0;
 }
 
 #social-media a {

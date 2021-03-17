@@ -8,12 +8,14 @@
         <script src="https://kit.fontawesome.com/66b7af4aa6.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+    <!-- Header -->
         <header>
-            <nav id="left-nav">
+            <nav id="left-nav" class="flex-container">
                 <img src="" alt="" />
                 <a href=""><i class="fas fa-home"></i>Home</a>
                 <a href=""><i class="fas fa-video"></i>Clips</a>
-                <a href=""><i class="fas fa-address-card"></i>About</a>
+                <a href=""><i class="fas fa-address-card"></i>Biography</a>
             </nav>
                 <!-- <nav id="right-nav">
                     <a href="https://www.facebook.com/jaie.why">
@@ -25,41 +27,49 @@
                 </nav> -->
         </header>
             
+            <!-- Section and its wrapper-->
             <div class="content-wrapper">
-                <section>  
-                    <h3>Jaie Why</h3>
-                    <p>Reggaie Music <br>
-                    “A room without books is like a body without a soul.” <br>
-                        ― Marcus Tullius Cicero 
-                    </p>
-                    <img id="jaie" src="images/jaiewhy.jpg" alt="Jaie Why image" />
-                </section>
+                <div id="img-flex" class="flex-container">
+                    <section class="flex-content">  
+                        <h3>Jaie Why</h3>
+                        <p>Reggaie Music <br>
+                        “A room without books is like a body without a soul.” <br>
+                            ― Marcus Tullius Cicero 
+                        </p>
+                    </section>
+                <img class="flex-content" id="jaie" src="images/jaiewhy.jpg" alt="Jaie Why image" />
+
+                </div>
+
+                    
             </div>
 
             <!-- Everything footer related -->
-            <footer>
-                <div id="footer-div">
+            <footer id="footer-div">
+                
                     <div class="content-wrapper">
-                        <div id="contact">
-                            <ul>Contact:
-                                <li><i class="fas fa-phone-alt"></i>Telephone: +977 981-3278207</li>
-                                <li><i class="fas fa-envelope"></i>Email:</li>
-                            </ul>
-                        </div>
-                        <div id="social-media">
-                            <ul>Follow Me On: 
-                                <li>
-                                    <i class="fab fa-facebook"></i>
-                                    <a href="https://www.facebook.com/jaie.why">Facebook</a>
-                                </li>
-                                <li>
-                                    <i class="fab fa-youtube"></i>
-                                    <a href="">YouTube</a></li>
-                            </ul>
+                        <div id="contact-flex">
+                            <div id="contact" class="contact-jaie">
+                                <ul>Contact:
+                                    <li><i class="fas fa-phone-alt"></i>Telephone: +977 981-3278207</li>
+                                    <li><i class="fas fa-envelope"></i>Email:</li>
+                                </ul>
+                            </div>
+                            <div id="social-media" class="contact-jaie">
+                                <ul>Follow Me On: 
+                                    <li>
+                                        <i class="fab fa-facebook"></i>
+                                        <a href="https://www.facebook.com/jaie.why">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-youtube"></i>
+                                        <a href="">YouTube</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
                 
+                    <!-- Made By-->
                     <div id="made-by">Site Made by Yves Arthur <a href="https://www.linkedin.com/in/yvesarthur/">
                     <i class="fab fa-linkedin"></i></a></div>
                 

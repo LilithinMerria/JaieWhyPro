@@ -2,6 +2,7 @@ $color : green;
 $font : helvetica, arial, sans-serif;
 $gray: #A9A9A9;
 $contact: #dfe3ee ;
+$white : #fff;
 $fwidth: 33%;
 $fmargin: 5px;
 $fheight:190px;
@@ -14,27 +15,51 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #3b5998 ;
+    background-color: $contact;
     
     /*display: grid;
     grid-template-columns: initial;*/
     
 }
 
-.content-wrapper {
-    width: 1200px;
-    margin: 0 auto;
-    /*padding: 20px;*/
-    background-color: $contact;
+#jaie {
+    width: 350px;
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
     
 }
 
+.flex-content {
+    flex: 1 1 350px;
+    margin: 12px;
+    
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: $*/
+   
+    
+}
+
+#img-flex {
+    background-color: $white;
+}
+
 #left-nav {
-    background-color: $contact;
+    background-color: #ffffff;
     font-weight: 600;
     margin: auto;
-    padding: 25px;
+    padding-bottom: 25px;
     /*border-bottom: 2px solid $gray;*/
-    position: relative;
+    
+    
     
     
     
@@ -68,32 +93,26 @@ i {
 } */
 
 section {
-    /*background-color: blue;*/
+    /*background-color: $white;*/
+    width: 1000px;
     height: 500px;
-    margin-top: 100px;
-    padding: 12px;
+    margin: 0 auto;
+   
     
-
     h3 {
         font-family: $font;
-        font-size: 50px;
+        font-size: 40px;
         text-align: top;
+        margin: 0;
     }
 
     p {
         font-family: $font;
-        font-size: 27px;
+        font-size: 20px;
         width: 57%;
     }
 
-    img {
-        width: 400px;
-        height: 350px;
-        float: right;
-        margin-top: -250px;
-        
-        
-    }
+    
 }
 
 #footer-div {
@@ -115,8 +134,21 @@ section {
         text-decoration: none;
         font-size: 16px;
         font-weight: 400;
+        text-align: left;
+        padding-left: 120px;
         /*color: #ffffff;*/
     }
+}
+
+#contact-flex {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contact-jaie {
+    flex: 1 1 450px;
+    text-align: center;
 }
 
 #contact {
@@ -124,7 +156,7 @@ section {
     height: $fheight;
     margin: $fmargin;
     background-color:$gray;
-    position: absolute;
+    
 }
 
 #social-media {
@@ -132,9 +164,7 @@ section {
     height: $fheight;
     margin: $fmargin;
     background-color: $gray;
-    float: right;
-    position: relative;
-    right: 0;
+    
 
     a {
         text-decoration: none;
