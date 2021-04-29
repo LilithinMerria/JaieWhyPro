@@ -156,4 +156,93 @@ section p {
   padding: 5px;
   position: relative;
 }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  /* Section */
+  .content-wrapper {
+    max-width: 600px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: $*/
+  }
+  #img-flex {
+    width: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section {
+    width: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  section h3 {
+    font-size: 20px;
+  }
+  section p {
+    font-size: 14px;
+  }
+  .flex-content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 200px;
+            flex: 1 1 200px;
+    margin: 12px;
+  }
+  #jaie {
+    width: 200px;
+    height: 200px;
+  }
+  /* Footer */
+  #footer-div {
+    /*background-color: magenta;*/
+    height: auto;
+    /*border: 2px solid black;*/
+    padding-top: 25px;
+    background-color: #A9A9A9;
+    position: relative;
+  }
+  #footer-div #contact-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    font-size: 20px;
+  }
+  #footer-div .contact-jaie {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100px;
+            flex: 1 1 100px;
+    text-align: left;
+    width: auto;
+  }
+  #footer-div .contact-jaie i {
+    padding: 0;
+    text-align: left;
+  }
+  #footer-div #contact, #footer-div #social-media {
+    width: 20%;
+  }
+  #footer-div ul {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  #footer-div li {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0;
+    /*color: #ffffff;*/
+  }
+}
 /*# sourceMappingURL=index.css.map */
